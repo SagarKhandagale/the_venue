@@ -3,6 +3,7 @@ import './resources/styles.css'
 import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
+import VenueInfo from './components/venueInfo';
 
 const App = () => {
   return (
@@ -13,12 +14,19 @@ const App = () => {
         <Featured />
       </>
 
-      <div style={{ backgroundColor:'red', height:'800px'}}></div>
-      <div style={{ backgroundColor:'orange', height:'800px'}}></div>
-      <div style={{ backgroundColor:'green', height:'800px'}}></div>
-      <div style={{ backgroundColor:'black', height:'800px'}}></div>
+      <>
+        <VenueInfo />
+      </>
+
+      <div style={{ backgroundColor: 'red', height: '800px' }}></div>
+      <div style={{ backgroundColor: 'orange', height: '800px' }}>
+
+      </div>
+      <div style={{ backgroundColor: 'green', height: '800px' }}></div>
+      <div style={{ backgroundColor: 'black', height: '800px' }}></div>
 
       <Footer />
+
 
     </div>
   );
